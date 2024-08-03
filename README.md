@@ -12,3 +12,7 @@ The food that agents eat regrows from the ground and its value is determined by 
 
 3) If it gets infected by a parasite when the the society becomes overpopulated (the number of people exceed the critical threshold ) in this case the parasite-infected agent will have an aging speed three times faster than that of an unfected agents.
 
+
+
+![Population Dynamics](https://github.com/user-attachments/assets/f6de5b07-4478-4df3-9680-7fbc31823dfd)
+

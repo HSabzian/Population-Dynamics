@@ -16,3 +16,61 @@ The food that agents eat regrows from the ground and its value is determined by 
 
 ![Population Dynamics](https://github.com/user-attachments/assets/f6de5b07-4478-4df3-9680-7fbc31823dfd)
 
+## HOW TO USE IT
+
+(how to use the model, including a description of each of the items in the Interface tab)
+Paramater of "initial-pop" stands for number of agents (persons)
+
+Parameter of "percentage-of-vehicle-owner" stands for number of agents having a vehicle
+
+Parameter of "min-age-of-reproduction" stands for minimum age of a married female agent that can get pregnant
+
+Parameter of "ticks-as-a-year" stands for how many ticks correspond to a year
+
+Parameter of "max-age-of-reproduction" stands for maximum age of a married female agent that can get pregnant.
+
+Parameter of " probability-of-childbearing" stands for how likely  a married agent can get pregnant and give birth to a child.
+
+Parameter of "possibility-of-vehicle-crash" stands for how likely a vehicle owner can have a crash.
+
+Parameter of "High-speed-crash" is a switch that when it is  ON a car owner will have a high-speed-crash (death probability of 80%) and when it is Off a car owner will have a lowe-speed crash (death probability of 10%).
+ 
+Parameter of "critical threshold" stands fro a value that when the number of population exceed it. The society will get overcrowded and a skin parasite will spread through the society and infect 5% of people in each tick.
+
+Parameter of "energy-lost-for-finding-food " stands for how much energy an agent loses when it searches to find food
+
+Parameter of "energy-lost-for-moving "  stands for how much energy an agent loses when it searches to move over landscape
+
+Parameter of "energy-gained-for-eating" stands for how much energy an agent gaines when it eats food
+
+Parameter of "probability-of-regrowth" stands for how likely a food can re-grow from the ground
+
+
+## THINGS TO NOTICE
+
+A clear path-dependecy is visible. Actually, When the population grows, the agents gradually convege to a specific place and they increase and decrease in number there.
+
+## THINGS TO TRY
+
+Try the model for different values of critical threshold when model is running.
+
+Try the model for when the world can wrap verticall or horizontally or both of them ans see whether there will be a patch-dependency for population concentration.
+
+## EXTENDING THE MODEL
+
+A year is accounted for by three ticks and it can be parametrised by a slider 
+
+The age for marriage is 18 (for both males and females) and it can be parametrised by a slider
+
+When a married female agent gives birth to a child, it loses 20 units of energy.This number can be parametrised via a slider 
+
+After over-population, the number of agents that get parasite-infected in each tick is fixed (5%) and can be parametrised by a slider 
+
+The death probability of agents with high-speed-crash(80%)is fixed and can be parametrised by a slider
+
+The death probability of agents with low-speed-crash (10%) is fixed and can be parametrised by a slider
+
+
+## RELATED MODELS
+
+Predator-prey Model

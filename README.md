@@ -1,3 +1,5 @@
+![Population Dynamics](https://github.com/user-attachments/assets/f6de5b07-4478-4df3-9680-7fbc31823dfd)
+
 ## HOW IT WORKS
 
 In this model there are N number of agents that each agent can be either a male or female. In the begining, all agents are single with a magenta color .While getting 18 years old( three ticks account for one year) each single agent moves and tries to find a single opposite sex for marriage. When two agents get married, the male's color turns to blue and that of female turns to orange. For marriage, each agent must be at least 18 years old. A married female agent can give birth to a child in an age ranging from min-age-of reproduction to max-age-of reproduction and when the age of a married female exceeds the max-age-of reproduction, she become unable to give birth to any other child. The bith of a child takes 20 units of energy from its mother and it is determined by the parameter of probability-of-birth.
@@ -14,7 +16,7 @@ The food that agents eat regrows from the ground and its value is determined by 
 
 
 
-![Population Dynamics](https://github.com/user-attachments/assets/f6de5b07-4478-4df3-9680-7fbc31823dfd)
+
 
 ## HOW TO USE IT
 
